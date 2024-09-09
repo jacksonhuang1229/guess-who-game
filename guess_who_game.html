@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜猜誰是誰</title>
+    <style>
+        /* 基本樣式 */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+        .feedback {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .result {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>猜猜誰是誰？</h1>
+    <div id="photo-container">
+        <img id="baby-photo" src="" alt="baby photo">
+    </div>
+    <div id="buttons-container">
+        <button id="guess-peach">小桃子</button>
+        <button id="guess-apple">小蘋果</button>
+    </div>
+    <div class="feedback" id="feedback"></div>
+    <div class="result" id="result"></div>
+
+    <script src="game-v3.js"></script>
+</body>
+</html>
